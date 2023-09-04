@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body class="module">
+   <header>
+    <div class="login-sign">
+        <ul>
+            <li>welcome:<span id="welcome"></span></li>
+            <li>Score:<span id="score"></span></li>
+            <li>Time limit:<span id="time">00:60</span></li>
+            <li>Birds Killed:<span id="killed"></span></li>
+        </ul>
+    </div>
+   </header>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <div class="content">
+                <img src="/images/warning.png">
+                <p>welcome <span span id="welcomee"></span></p>
+                <button class="myBtn">start game</button>
+            </div>
+        </div>
+    </div>
+        <div  id="lost">
+            <div class="modal-content">
+                <div class="content">
+                    <img src="/images/lost1.png">
+                    <p>you lost !!<span></span></p>
+                    <button class="myBtn" id="lose">play again</button>
+                   
+                </div>
+            </div>
+        </div>
+        <div id="win">
+            <div class="modal-content">
+                <div class="content">
+                    <img src="/images/win1.png">
+                    <p>you won !!<span></span></p>
+                    <button class="myBtn" id="won">start game</button>
+                    
+            </div>
+   <script src="game.js"></script>
+</body>
+</html>
